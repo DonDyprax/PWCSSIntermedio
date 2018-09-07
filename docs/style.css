@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2em;
+}
+
+p {
+    color: #7f888f;
+}
+
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    flex-basis: 15%;
+}
+
+.social-media ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media ul li{
+    display: inline-block;
+}
+
+.title h1 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.title p {
+    display: inline-block;
+}
+
+
+.red-hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 5px solid rgb(255, 0, 0);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.learn-more-btn {
+    background-color: transparent;
+    color: #f56a6a;
+    border-radius: 6px;
+    border: 1px solid #f56a6a;
+    padding: 0.75em 4em;
+}
+
+.main {
+    display: grid;
+}
